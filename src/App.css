@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.App-header {
+  color: #61dafb;
+}
+
+.card-container{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
