@@ -3,11 +3,14 @@ import Content from "./Content";
 
 function CardProduct({ data }) {
   return (
-    <div className="card">
-       <img src={data.foto}/> 
-      <Content info={data}/>
+    <div className="card" >
+        <div className="imagen" style={{ backgroundImage: `url(${data.foto})` }}>
+          <div className="hoverText">
+            <Content info={data}/>
+          </div>
+        </div>    
     </div>
   );
 }
-//style="--i:url(img1.jpg)"
+
 export default CardProduct;
